@@ -3,8 +3,8 @@ name: iptvzby
 on:
   schedule:
     - cron: '0 6,20 1 1 *'
-  push:
-    branches:
+  workflow_dispatch:
+    分支:
       - main
 
 jobs:
